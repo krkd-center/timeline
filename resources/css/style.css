@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1.kor {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+h1.eng {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
