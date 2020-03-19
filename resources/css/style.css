@@ -1,21 +1,90 @@
+:root {
+    --font-family-kr-title: 'Black Han Sans', sans-serif;
+    --font-family-kr-p: 'Noto Sans KR', sans-serif;
+    --font-family-en-title: 'Roboto Slab', serif;
+    --font-family-en-p: font-family: 'PT Sans', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-top: 30px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
+    font-weight: normal;
 }
 
-h1.kor {
-    font-family: 'Black Han Sans', sans-serif;
+.kor-title {
+    font-family: var(--font-family-kr-title);
 }
 
-h1.eng {
-    font-family: 'Roboto Slab', serif;
+.en-title {
+    font-family: var(--font-family-en-title);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.en-p {
+    font-family: var(--font-family-en-p);
 }
 
 p {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: var(--font-family-kr-p)
+}
+
+main {
+    margin: 20px 200px;
+    max-width: 800px;
+    height: auto;
+}
+
+/* box modules */
+
+.box-main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 300px;
+    min-height: 280px;
+    box-shadow: 2px 5px 25px rgba(0, 0, 0, .15);
+    padding: 20px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.box-main img {
+    --size: 80px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    left: -70px;
+    top: -70px;
+    width: var(--size);
+}
+
+.box-main-title {
+    font-size: 1.2rem;
+    font-family: var(--font-family-kr-p);
+    font-weight: 700;
+}
+
+.box-main-subtitle {
+    color: gray;
+    font-size: 1rem;
+    margin-top: .33rem;
+}
+
+.box-main-text {
+    margin-top: .66rem;
 }
