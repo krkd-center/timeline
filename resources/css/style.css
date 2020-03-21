@@ -95,7 +95,7 @@ h4 {
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     main {
         margin: 10px;
         column-count: 1;
