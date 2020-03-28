@@ -76,7 +76,7 @@ p.intro {
 }
 
 .timeline {
-    max-width: 30%;
+    width: 30%;
 }
 
 .timeline-content {
@@ -119,7 +119,7 @@ p.intro {
 }
 
 .content {
-    max-width: 70%;
+    width: 70%;
     margin: 0 50px 50px 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
